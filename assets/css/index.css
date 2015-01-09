@@ -1,0 +1,157 @@
+html {
+    background:#500000 url(/assets/img/trheader_green_side.png) repeat-x;
+}
+
+#header,#menu,#content,#sub-section,#footer,#bighead,#bigcont{
+    overflow:hidden;
+    display:inline-block;
+}
+
+.logo {
+    margin-top: 5px;
+}
+
+#bighead {
+  background: url(/assets/img/trheader_green_text_gill.png) no-repeat center -800%;
+  width:906px;
+  height:140px;
+  margin: 0 auto;
+}
+#bigcont {
+  background: black;
+  border: 4px solid #500000;
+  border-top: none;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0px 20px 32px 8px #280000;
+  margin: 0px 32px;
+  padding-bottom: 18px;
+  width: 906px;
+}
+
+#footer {
+    width:100%;
+    color:#820c0c;
+    font:1.54em/1.4 "Trebuchet MS", Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 8px;
+}
+
+#footer .below_image {
+    margin: 10px 35px;
+}
+.below_image div {
+    float: left;
+    width: 33%;
+}
+#footer .copyright {
+    text-align: left;
+}
+#footer .ocf-logo {
+    text-align: center;
+}
+#footer .addthis {
+    text-align: right;
+}
+
+#header,#menu,#content {float:left}
+#sub-section {float:right;text-align:justify}
+#header {margin-left:58px;margin-top:0px;text-align:justify;overflow:visible}
+
+#menu2 {
+  text-align:justify;
+  color:#9c0;
+}
+#content {
+  margin-top:0px;
+  margin-left:18px;
+  width:715px;
+  text-align:justify;
+  padding:0px; 
+}
+#sub-section {
+  margin-top:0px;
+  margin-left:0px;
+  margin-right:18px;
+  width:155px; 
+}
+
+.banner_highlight {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+#menu {
+  float: right;
+  margin-right: 20px;
+  white-space: nowrap;
+}
+#menu .nav {
+  display: inline-block;
+
+  border: 2px solid rgb(19, 30, 14);
+  border-top: none;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 2px 2px 3px 0 rgba(19, 44, 2, .5);
+
+  /* Give some room for the border to render itself*/
+  margin-right: 5px;
+  margin-bottom: 5px;
+
+
+  /* IE10 Consumer Preview */ 
+  background-image: -ms-linear-gradient(top, #3E5135 0%, #2A3A20 100%);
+
+  /* Mozilla Firefox */ 
+  background-image: -moz-linear-gradient(top, #3E5135 0%, #2A3A20 100%);
+
+  /* Opera */ 
+  background-image: -o-linear-gradient(top, #3E5135 0%, #2A3A20 100%);
+
+  /* Webkit (Safari/Chrome 10) */ 
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3E5135), color-stop(1, #2A3A20));
+
+  /* Webkit (Chrome 11+) */ 
+  background-image: -webkit-linear-gradient(top, #3E5135 0%, #2A3A20 100%);
+
+  /* W3C Markup, IE10 Release Preview */ 
+  background-image: linear-gradient(to bottom, #3E5135 0%, #2A3A20 100%);
+}
+#menu .nav ul {
+  margin: 0;
+  font:18px Arial, Helvetica, sans-serif;
+  padding: 0;
+  list-style:none;
+  color:#9c0;
+}
+#menu .nav ul li {
+  float:left;
+  padding:5px 22px; 
+  border-left: 1px solid #2A3A20;
+}
+#menu .nav ul li:first-child {
+  border-left: none;
+}
+#menu a {
+  color:#fff;
+}
+#menu .nav ul .active, #menu ul a:hover {
+  color:#9c0;
+  text-decoration:none;
+}
+#members {
+  display: inline-block;
+  float:right;
+  margin-right: 35px;
+  margin-top: 5px;
+}
+
+#menu2 li{
+  float:left;
+  margin:0 0 0 22px;
+  padding-right:20px;
+}
+#menu2 a{color:#fff;}
+#menu2 li .active,#menu2 li a:hover{color:#9c0;text-decoration:none;}
+
+#chat {margin-left:-5px;}
+#chat a{color:#000;} 

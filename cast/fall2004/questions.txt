@@ -1,0 +1,77 @@
+--------------------------
+Member Website Questionare
+--------------------------
+
+General Notes:
+ - (Most) Questions are written to be ambiguous.  Interpret them however you want!
+ - Do try to answer them!
+ - Have Fun!
+
+
+The Usual Suspects
+----------
+01. Name
+
+02. Major
+
+03. Minor
+
+04. Date 
+
+05. Race.
+
+
+A Bowl of Rice
+----------
+06. What attracts you to Rice?
+
+07. What are you looking for in Rice?
+
+
+You Look Familiar
+----------
+08. What is a burning desire of yours?
+
+09. Who are you?
+
+
+Laughing in You Face (choose at least three)
+----------
+10. A knife fight between a wild monkey, Rocky Balboa, and the US Mint.  Where does you money stand?
+
+11. Who's your side kick towards world domination?
+
+12. What's the most dramatic/awesome way to be born?
+
+13. White White White White, what do Cows drink?  (don't cheat)
+
+14. Whose side do you take?
+
+
+
+--------------------
+SAMPLE ANSWER FORMAT
+--------------------
+1 Eugene Wu
+
+2 EECS
+
+3 Cycling
+
+4 Sep 22 1985
+
+5 Race?  sure
+
+6 People attracts me to Rice
+
+7 I'm looking for people in Rice
+
+8 To win
+
+9 Beats me
+
+10 wild monkey
+
+12 born with a spoon
+
+14 mine

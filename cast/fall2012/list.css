@@ -1,0 +1,17 @@
+.links a {
+  display: block;
+  padding: 5px 0px;
+}
+.links .column {
+  float:left; width:33%; text-align: center;
+}
+
+.shows {
+  padding-top: 20px;
+  clear: both;
+}
+
+.show {
+    float: left;
+    width: 50%;
+}

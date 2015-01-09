@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<profile>
+	<question>
+		<number>0.1</number>
+		<answer>Eugene Wu
+		</answer>
+	</question>
+	<question>
+		<number>0.2</number>
+		<answer>Male
+		</answer>
+	</question>
+	<question>
+		<number>0.3</number>
+		<answer>EECS and possibly Business
+		</answer>
+	</question>
+		<question>
+		<number>0.4</number>
+		<answer>single and still counting
+		</answer>
+	</question>
+	<question>
+		<number>0.5</number>
+		<answer>exists
+		</answer>
+	</question>
+	<question>
+		<number>1</number>
+		<answer>I wanted to be cool
+		</answer>
+	</question>
+	<question>
+		<number>2</number>
+		<answer>I like to run.  Running is good.  Anyone wanna be my running buddy?&lt;br&gt;
+			I also like the gym, music, programming, chapelle's show, simpsons, sexy ladies and sexy comput... cars.  sexy cars.
+		</answer>
+	</question>
+		<question>
+		<number>3</number>
+		<answer>flavoring.
+		</answer>
+	</question>
+	<question>
+		<number>4</number>
+		<answer>X Japan - Art of Life.  28:56 minutes.  299,593Kb = 300mb.  Completely uncompressed, pure CD extraction.  And with my new Sony headphones.  that's heaven, buddy, its heaven.
+		</answer>
+	</question>
+	<question>
+		<number>5</number>
+		<answer>Until after I get some Lovin'
+		</answer>
+	</question>
+	<question>
+		<number>6</number>
+		<answer>Trapped in a big bowl of water and getting tickled to death.
+		</answer>
+	</question>
+		<question>
+		<number>7</number>
+		<answer>nah.  i won't need chump change.
+		</answer>
+	</question>
+	<question>
+		<number>8</number>
+		<answer>space martians.  and those outsourcing companies.
+		</answer>
+	</question>
+	<question>
+		<number>9a</number>
+		<answer>What is the inode table?  What is the process open file table?  Why do we use both rather than putting a copy of the mode in the open file table entry?
+		</answer>
+	</question>
+	<question>
+		<number>9b</number>
+		<answer>If i knew it then I wouldn't have bombed that test.
+		</answer>
+	</question>
+
+</profile>

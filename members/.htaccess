@@ -1,0 +1,7 @@
+<IfDefine !DEV>
+  AuthName "Restricted Area" 
+  AuthType Basic 
+  AuthUserFile /home/t/th/thrice/www/members/admin/.htpasswd 
+  AuthGroupFile /dev/null 
+  require valid-user
+</IfDefine>

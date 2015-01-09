@@ -1,0 +1,175 @@
+body {
+	margin:0 auto;
+	text-align:center;
+	color:#ccc;
+	font:0.884em/2 "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width:980px;
+}
+
+a {
+	outline:none;
+	color:#9c0;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+
+/* Special styling of headers */
+h1,h2,h3 {
+  color: #fff;
+  text-transform: lowercase;
+  letter-spacing: 4px;
+  font-weight: normal;
+  margin: 16px 0 0;
+}
+h1 {
+  font-size: 1.6em;
+  line-height: 1.4;
+}
+h1 a {
+	font-size:0.9em;
+	margin-left:150px;
+	text-transform:lowercase;
+}
+h2 {
+	font-size:1.4em;
+}
+h3 {
+  font-size: 1.2em;
+}
+h4 {
+  font-weight:bold;
+  color: #fff;
+}
+p {
+	margin: 0;
+	padding:5px 0 5px 0;
+	width:100%;
+	overflow:hidden;
+}
+strong {
+	color:#fff;
+}
+
+td.validation{width:88px;}
+.centered{margin-left: auto; margin-right: auto; text-align: center;}
+
+.button {
+  width:670px; border: 1px #666 solid;
+  background-color: #191919;
+  margin-left:10px;
+  text-align:left;
+  padding-right:5px;
+}
+.button:hover {
+  background-color: #333333;
+}
+
+/* CSS specific to the videos page */
+.video {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.video .img-container {
+  float: left;
+  max-width: 50%;
+}
+.video .img-container img {
+  max-width: 100%;
+}
+
+.video .desc {
+  overflow: hidden;
+  padding-left: 10px;
+}
+
+.video .desc h3 {
+  margin: 0px;
+}
+
+.video .desc a {
+  padding-right: 20px;
+}
+
+/* CSS specific to the committee page */
+.comm {
+  border-bottom: 2px solid grey;
+}
+.comm img.pic {
+  float: left;
+  padding: 5px;
+  vertical-align: top;
+  width: 120px;
+}
+
+/* CSS specific to the homepage */
+.panel {
+  background-color: #191919;
+  overflow: hidden;
+} 
+.onleft {
+  float: left;
+  clear: left;
+  overflow: hidden;
+}
+.onleft a {
+  font-size: 0px;
+}
+.onleft img {
+  margin: 4px;
+}
+
+#twitter_update_list {
+  overflow: hidden;
+  padding: 5px;
+}
+
+#twitter_update_list li {
+  list-style-type: none;
+}
+
+.layout {
+  display: table;
+  border-spacing: 10px;
+}
+.layout .twitter-status {
+  margin: 0px 10px;
+}
+.layout .mini {
+  display: table-cell;
+  width: 33%;
+  text-align: center;
+} 
+
+/* CSS specific to the press page */
+.press {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.press img {
+  float: left;
+}
+.press .desc {
+  overflow: hidden;
+  padding-left: 20px;
+}
+.press .link {
+  display: inline-block;
+  float: right;
+}
+
+/* CSS for charity page */
+.charity {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px 5px;
+}
+
+.old_cast {
+    background-color: white;
+}

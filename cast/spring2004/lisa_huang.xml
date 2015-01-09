@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<profile>
+	<question>
+		<number>0.1</number>
+		<answer>Lisa Huang </answer>
+	</question>
+	<question>
+		<number>0.2</number>
+		<answer>F</answer>
+	</question>
+	<question>
+		<number>0.3</number>
+		<answer>brain robbery</answer>
+	</question>
+		<question>
+		<number>0.4</number>
+		<answer>moron</answer>
+	</question>
+	<question>
+		<number>0.5</number>
+		<answer>that's personal</answer>
+	</question>
+	<question>
+		<number>1</number>
+		<answer>Because my psychic told me to. And I always listen to my psychic.</answer>
+	</question>
+	<question>
+		<number>2</number>
+		<answer>I like to watch people, make up stories about their lives, and analyze them. I also like to trick little kids. </answer>
+	</question>
+		<question>
+		<number>3</number>
+		<answer>Those moments in life when you feel the most indescribable emotions.</answer>
+	</question>
+	<question>
+		<number>4</number>
+		<answer> don?t know the name of it, but it?s modern Mozart. It?s beautifully sad but also very comforting</answer>
+	</question>
+	<question>
+		<number>5</number>
+		<answer>10 times longer than the average lifespan. So that I can see the changes that occur over the centuries and hopefully to understand more.</answer>
+	</question>
+	<question>
+		<number>6</number>
+		<answer>When you absolutely, completely don?t expect it. Like being hit by a meteor while going about your life on a normal day. No warning, no nothing. Just life. Then death.</answer>
+	</question>
+
+	<question>
+		<number>9a</number>
+		<answer>What do you want to be when you grow up?</answer>
+	</question>
+		<question>
+		<number>9b</number>
+		<answer>God.</answer>
+	</question>
+</profile>

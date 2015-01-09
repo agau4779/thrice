@@ -1,0 +1,10 @@
+pre {
+    font-family: inherit;
+    margin: 0px;
+    padding: 5px 0px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+#member_info {
+    text-align: center;
+}

@@ -1,0 +1,115 @@
+html{height:100%;font-size:65.5%;background:#500000 url(../trheader_green_side.png) repeat-x;}
+
+
+body {
+	margin:0 auto;
+	text-align:center;
+	color:#ccc;
+	font:1.3em/1.5 "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width:980px;
+	line-height: 2em;
+	/*background:url(trbody_repeat.png) repeat-y 0 300px;*/
+}
+
+#header,#menu,#content,#sub-section,#footer,#bighead,#bigcont{
+overflow:hidden;
+display:inline-block
+}
+
+/*#wrapper {background:url(trbody_top.png) no-repeat 0 140px;margin: 0 auto;}*/
+#bighead {background:url(../trheader_green.jpg) no-repeat 36px 0px;width:980px;height:140px;margin: 0 auto;}
+#bigcont {background:url(../trbody_repeat.png) repeat-y 0 300px;width:980px;margin-top:0px}
+#members {text-align:justify;margin-left:820px;margin-top:40px}
+
+/* safari and opera need this */
+#footer {background:url(../trbody_bot.png) no-repeat 0 0px;height:108px;width:100%;color:#be0000;font:1.54em/1.4 "Trebuchet MS", Arial, Helvetica, sans-serif}
+#header,#menu,#content {float:left}
+#sub-section {float:right;text-align:justify}
+#header {margin-left:50px;margin-top:0px;text-align:justify;overflow:visible}
+
+/* leaving room for rounding error (MSIE5.5) */
+#menu {margin-left:20px;margin-top:5px;color:#000}
+#menu2 {text-align:justify;color:#9c0}
+#content {margin-top:0px;margin-left:55px;width:715px;text-align:justify;padding:0px;}
+#sub-section {margin-top:0px;margin-left:0px;margin-right:55px;width:155px;}
+#footer {margin-top:-8px;padding-top:10px;padding-bottom:0px}
+img{
+	border:0;
+}
+a{
+	outline:none;
+	color:#9c0;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+h1{
+	margin:16px 0 0;
+	color:#fff;
+	font:1.54em/1.4 "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	letter-spacing:4px;
+	text-transform:lowercase;
+}
+h1 a{
+	font-size:0.9em;
+	margin-left:150px;
+	text-transform:lowercase;
+}
+h2{
+	font-size:1.4em;
+	color:#fff;
+	margin:16px 0 0;
+	font-weight:normal;
+	letter-spacing:4px;
+	text-transform:lowercase;
+}
+h3{
+	font-size:1.34em;
+	color:#fff;
+	margin:16px 0 0;
+	font-weight:normal;
+	letter-spacing:4px;
+	text-transform:lowercase;
+}
+p{
+	margin:0;
+	padding:5px 0 5px 0;
+	width:100%;
+	overflow:hidden;
+}
+strong{
+	color:#fff;
+}
+
+#menu ul{
+	/*position:absolute;*/
+	top:54px;
+	right:5%;
+	margin:0;
+	font:1.24em Arial, Helvetica, sans-serif;
+	padding:0;
+	list-style:none;
+	/*font-weight: bold;*/
+}
+#menu li{
+	float:left;
+	margin:0 0 0 25px;
+}
+#menu a{color:#fff;}
+#menu ul .active,#menu ul a:hover{color:#000;text-decoration:none;}
+
+#menu2 li{
+	float:left;
+	margin:0 0 0 22px;
+	padding-right:20px;
+}
+#menu2 a{color:#fff;}
+#menu2 li .active,#menu2 li a:hover{color:#9c0;text-decoration:none;}
+
+#chat {margin-left:-5px}
+#chat a{color:#000;}
+
+td.validation{width:88px;}
+table.fivepix{height:15px;}

@@ -1,0 +1,1049 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 11">
+<link rel=File-List href="ms_tabling2_files/filelist.xml">
+<link rel=Edit-Time-Data href="ms_tabling2_files/editdata.mso">
+<link rel=OLE-Object-Data href="ms_tabling2_files/oledata.mso">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>vince</o:Author>
+  <o:LastAuthor>scjjchou</o:LastAuthor>
+  <o:LastPrinted>2006-09-27T00:04:19Z</o:LastPrinted>
+  <o:Created>2006-08-23T05:57:31Z</o:Created>
+  <o:LastSaved>2006-10-02T08:17:51Z</o:LastSaved>
+  <o:Version>11.5606</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-horizontal-page-align:center;}
+tr
+	{mso-height-source:auto;
+	mso-ruby-visibility:none;}
+col
+	{mso-width-source:auto;
+	mso-ruby-visibility:none;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl24
+	{mso-style-parent:style0;
+	border:.5pt solid windowtext;}
+.xl25
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;}
+.xl26
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	font-weight:700;
+	text-align:center;}
+.xl27
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	font-weight:700;
+	text-align:left;}
+.xl28
+	{mso-style-parent:style0;
+	font-size:8.0pt;}
+.xl29
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	font-weight:700;
+	border:.5pt solid windowtext;}
+.xl30
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	font-weight:700;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl31
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;}
+.xl32
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl33
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	font-weight:700;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl34
+	{mso-style-parent:style0;
+	font-style:italic;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl35
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	font-weight:700;
+	border:1.5pt solid windowtext;}
+.xl36
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	border:1.5pt solid windowtext;}
+.xl37
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	font-style:italic;
+	border:1.5pt solid windowtext;}
+.xl38
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	border-top:none;
+	border-right:1.5pt solid windowtext;
+	border-bottom:1.5pt solid windowtext;
+	border-left:1.5pt solid windowtext;}
+.xl39
+	{mso-style-parent:style0;
+	border:1.5pt solid windowtext;}
+.xl40
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	border:1.5pt solid windowtext;
+	background:yellow;
+	mso-pattern:auto none;}
+.xl41
+	{mso-style-parent:style0;
+	font-size:12.0pt;
+	font-weight:700;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-char-type:none;
+	display:none;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet1</x:Name>
+    <x:WorksheetOptions>
+     <x:Print>
+      <x:ValidPrinterInfo/>
+      <x:Scale>80</x:Scale>
+      <x:HorizontalResolution>600</x:HorizontalResolution>
+      <x:VerticalResolution>600</x:VerticalResolution>
+     </x:Print>
+     <x:Selected/>
+     <x:TopRowVisible>9</x:TopRowVisible>
+     <x:Panes>
+      <x:Pane>
+       <x:Number>3</x:Number>
+       <x:ActiveRow>22</x:ActiveRow>
+       <x:ActiveCol>4</x:ActiveCol>
+      </x:Pane>
+     </x:Panes>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet2</x:Name>
+    <x:WorksheetOptions>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet3</x:Name>
+    <x:WorksheetOptions>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>9210</x:WindowHeight>
+  <x:WindowWidth>11355</x:WindowWidth>
+  <x:WindowTopX>300</x:WindowTopX>
+  <x:WindowTopY>555</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+
+<body link=blue vlink=purple>
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=4518 style='border-collapse:
+ collapse;table-layout:fixed;width:3389pt'>
+ <col width=178 style='mso-width-source:userset;mso-width-alt:6509;width:134pt'>
+ <col width=131 style='mso-width-source:userset;mso-width-alt:4790;width:98pt'>
+ <col width=153 style='mso-width-source:userset;mso-width-alt:5595;width:115pt'>
+ <col width=124 style='mso-width-source:userset;mso-width-alt:4534;width:93pt'>
+ <col width=127 style='mso-width-source:userset;mso-width-alt:4644;width:95pt'>
+ <col width=129 style='mso-width-source:userset;mso-width-alt:4717;width:97pt'>
+ <col width=92 style='mso-width-source:userset;mso-width-alt:3364;width:69pt'>
+ <col width=64 span=56 style='width:48pt'>
+ <tr height=21 style='height:15.75pt'>
+  <td colspan=6 height=21 class=xl41 width=842 style='height:15.75pt;
+  width:632pt'>Mid-Semester Show Tabling Sign-Up Week 2</td>
+  <td width=92 style='width:69pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=6 class=xl26 style='height:12.75pt;mso-ignore:colspan'></td>
+  <td colspan=57 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl27 colspan=4 style='height:12.75pt;mso-ignore:colspan'>*If
+  a ricer does not show up for an assigned shift, please contact them (numbers
+  below)</td>
+  <td colspan=2 class=xl26 style='mso-ignore:colspan'></td>
+  <td colspan=57 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl27 style='height:12.75pt'
+  x:str=" and remind them to come. "><span style='mso-spacerun:yes'> </span>and
+  remind them to come.<span style='mso-spacerun:yes'> </span></td>
+  <td colspan=5 class=xl26 style='mso-ignore:colspan'></td>
+  <td colspan=57 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl27 colspan=3 style='height:12.75pt;mso-ignore:colspan'
+  x:str="**PLEASE DONT FORGET TO SIGN IN. WE ARE NOW REQUIRING PEOPLE TO SIGN IN ">**PLEASE
+  DONT FORGET TO SIGN IN. WE ARE NOW REQUIRING PEOPLE TO SIGN IN<span
+  style='mso-spacerun:yes'> </span></td>
+  <td colspan=3 class=xl26 style='mso-ignore:colspan'></td>
+  <td colspan=57 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl27 colspan=4 style='height:12.75pt;mso-ignore:colspan'
+  x:str="SO WE CAN KEEP ATTENDANCE ON THOSE WHO COME AND DONT COME TO THEIR SHIFTS. ">SO
+  WE CAN KEEP ATTENDANCE ON THOSE WHO COME AND DONT COME TO THEIR SHIFTS.<span
+  style='mso-spacerun:yes'> </span></td>
+  <td colspan=2 class=xl26 style='mso-ignore:colspan'></td>
+  <td colspan=57 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl27 colspan=3 style='height:12.75pt;mso-ignore:colspan'
+  x:str="***In the future, if for any reason you guys can't make it please 1) contact Linda or ">***In
+  the future, if for any reason you guys can't make it please 1) contact Linda
+  or<span style='mso-spacerun:yes'> </span></td>
+  <td colspan=3 class=xl26 style='mso-ignore:colspan'></td>
+  <td colspan=15 style='mso-ignore:colspan'></td>
+  <td class=xl24>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-left:none'>&#12288;</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl27 colspan=5 style='height:12.75pt;mso-ignore:colspan'>Jaime
+  2) contact someone who you know is tabling the same shift and tell them you
+  will not be able to make it.</td>
+  <td class=xl26></td>
+  <td colspan=15 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 colspan=5 class=xl28 style='height:13.5pt;mso-ignore:colspan'></td>
+  <td colspan=14 style='mso-ignore:colspan'></td>
+  <td class=xl34>&#12288;</td>
+  <td class=xl34 style='border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr class=xl39 height=19 style='height:14.25pt'>
+  <td height=19 class=xl35 style='height:14.25pt'>Monday, October 9</td>
+  <td class=xl35 style='border-left:none'>Name</td>
+  <td class=xl35 style='border-left:none'>Name</td>
+  <td class=xl35 style='border-left:none'>Name</td>
+  <td class=xl35 style='border-left:none'>Name</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl39>&#12288;</td>
+  <td class=xl39 style='border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl25 height=19 style='height:14.25pt'>
+  <td height=19 class=xl38 style='height:14.25pt'>10:00am - 11:00am (set up)</td>
+  <td class=xl38 style='border-left:none'>Aly</td>
+  <td class=xl38 style='border-left:none'>Jeff</td>
+  <td class=xl38 style='border-left:none'>Helen</td>
+  <td class=xl38 style='border-left:none'>Linda</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl25>&#12288;</td>
+  <td class=xl25 style='border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl36 style='height:14.25pt;border-top:none'>11:00am -
+  12:00pm</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Ernesto</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Jon Amores</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Phil</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Jeff</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl36 style='height:14.25pt;border-top:none'>12:00pm -
+  1:00pm</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Melody</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Brian M.</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Brian S.</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Leigh</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl36 style='height:14.25pt;border-top:none'>1:00pm -
+  2:00pm (clean up)</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Jessica</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Yue</td>
+  <td class=xl40 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl40 style='border-top:none;border-left:none'>&#12288;</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl36 style='height:14.25pt;border-top:none'>&#12288;</td>
+  <td class=xl36 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl36 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl36 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl36 style='border-top:none;border-left:none'>&#12288;</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl35 style='height:14.25pt;border-top:none'>Tuesday,
+  October 10</td>
+  <td class=xl35 style='border-top:none;border-left:none'>Name</td>
+  <td class=xl35 style='border-top:none;border-left:none'>Name</td>
+  <td class=xl35 style='border-top:none;border-left:none'>Name</td>
+  <td class=xl35 style='border-top:none;border-left:none'>Name</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl36 style='height:14.25pt;border-top:none'>10:00am -
+  11:00am (set up)</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Janelle</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Simon</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Anthony</td>
+  <td class=xl40 style='border-top:none;border-left:none'>&#12288;</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl36 style='height:14.25pt;border-top:none'>11:00am -
+  12:00pm</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Lisa Lee</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Janelle</td>
+  <td class=xl36 style='border-top:none;border-left:none' x:str="Jessica ">Jessica<span
+  style='mso-spacerun:yes'> </span></td>
+  <td class=xl36 style='border-top:none;border-left:none'>Ahema</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl36 style='height:14.25pt;border-top:none'>12:00pm -
+  1:00pm</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Juan</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Sonny</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Brian S.</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Ahema</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl36 style='height:14.25pt;border-top:none'>1:00pm -
+  2:00pm (clean up)</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Jade</td>
+  <td class=xl40 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl40 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl40 style='border-top:none;border-left:none'>&#12288;</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl36 style='height:14.25pt;border-top:none'>&#12288;</td>
+  <td class=xl36 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl36 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl36 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl36 style='border-top:none;border-left:none'>&#12288;</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl35 style='height:14.25pt;border-top:none'>Wednesday,
+  October 11</td>
+  <td class=xl35 style='border-top:none;border-left:none'>Name</td>
+  <td class=xl35 style='border-top:none;border-left:none'>Name</td>
+  <td class=xl35 style='border-top:none;border-left:none'>Name</td>
+  <td class=xl35 style='border-top:none;border-left:none'>Name</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl36 style='height:14.25pt;border-top:none'>10:00am -
+  11:00am (set up)</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Aly</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Diana H.</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Linda</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Jaime</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl36 style='height:14.25pt;border-top:none'>11:00am -
+  12:00pm</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Ernesto</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Jon Amores</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Phil</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Kevin</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl36 style='height:14.25pt;border-top:none'>12:00pm -
+  1:00pm</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Brian M.</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Leigh</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Jeff</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Kevin</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl36 style='height:14.25pt;border-top:none'>1:00pm -
+  2:00pm (clean up)</td>
+  <td class=xl36 style='border-top:none;border-left:none' x:str="Yue ">Yue<span
+  style='mso-spacerun:yes'> </span></td>
+  <td class=xl36 style='border-top:none;border-left:none'>Kenneth</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Stephen</td>
+  <td class=xl40 style='border-top:none;border-left:none'>&#12288;</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl36 style='height:14.25pt;border-top:none'>&#12288;</td>
+  <td class=xl36 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl36 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl36 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl36 style='border-top:none;border-left:none'>&#12288;</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl35 style='height:14.25pt;border-top:none'>Thursday,
+  October 12</td>
+  <td class=xl35 style='border-top:none;border-left:none'>Name</td>
+  <td class=xl35 style='border-top:none;border-left:none'>Name</td>
+  <td class=xl35 style='border-top:none;border-left:none'>Name</td>
+  <td class=xl35 style='border-top:none;border-left:none'>Name</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl36 style='height:14.25pt;border-top:none'>10:00am -
+  11:00am (set up)</td>
+  <td class=xl40 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl40 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl40 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl40 style='border-top:none;border-left:none'>&#12288;</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl36 style='height:14.25pt;border-top:none'>11:00am -
+  12:00pm</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Lisa Lee</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Jessica</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Sebastian</td>
+  <td class=xl36 style='border-top:none;border-left:none' x:str="Helen ">Helen<span
+  style='mso-spacerun:yes'> </span></td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl36 style='height:14.25pt;border-top:none'>12:00pm -
+  1:00pm</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Erin</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Sonny</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Allen</td>
+  <td class=xl40 style='border-top:none;border-left:none'>&#12288;</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl36 style='height:14.25pt;border-top:none'>1:00pm -
+  2:00pm (clean up)</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Erin</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Allen</td>
+  <td class=xl40 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl40 style='border-top:none;border-left:none'>&#12288;</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl36 style='height:14.25pt;border-top:none'>&#12288;</td>
+  <td class=xl36 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl36 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl36 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl36 style='border-top:none;border-left:none'>&#12288;</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl35 style='height:14.25pt;border-top:none'>Friday,
+  October 13</td>
+  <td class=xl35 style='border-top:none;border-left:none'>Name</td>
+  <td class=xl35 style='border-top:none;border-left:none'>Name</td>
+  <td class=xl35 style='border-top:none;border-left:none'>Name</td>
+  <td class=xl35 style='border-top:none;border-left:none'>Name</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl36 style='height:14.25pt;border-top:none'>10:00am -
+  11:00am (set up)</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Nick</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Will</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Jina</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Sebastian</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl36 style='height:14.25pt;border-top:none'>11:00am -
+  12:00pm</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Nick</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Melody</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Will</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Jeena</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl36 style='height:14.25pt;border-top:none'>12:00pm -
+  1:00pm</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Nick</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Jeena</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Simon</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Diana H.</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl24 height=19 style='height:14.25pt'>
+  <td height=19 class=xl36 style='height:14.25pt;border-top:none'>1:00pm -
+  2:00pm (clean up)</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Jade</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Anthony</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Stephen</td>
+  <td class=xl36 style='border-top:none;border-left:none'>Jaime</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl24 style='border-top:none'>&#12288;</td>
+  <td class=xl24 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr class=xl34 height=19 style='height:14.25pt'>
+  <td height=19 class=xl37 style='height:14.25pt;border-top:none'>&#12288;</td>
+  <td class=xl37 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl37 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl37 style='border-top:none;border-left:none'>&#12288;</td>
+  <td class=xl37 style='border-top:none;border-left:none'>&#12288;</td>
+  <td colspan=56 style='mso-ignore:colspan'></td>
+  <td class=xl34 style='border-top:none'>&#12288;</td>
+  <td class=xl34 style='border-top:none;border-left:none'>&#12288;</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl29 style='height:13.5pt'>Name</td>
+  <td class=xl30>Cell #</td>
+  <td class=xl33>Name</td>
+  <td class=xl30>Cell #</td>
+  <td colspan=59 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl31 style='height:12.75pt'>Ahema Adarkwa</td>
+  <td class=xl32>510-384-3321</td>
+  <td class=xl31 style='border-left:none'>Jessica Yang</td>
+  <td class=xl32>909-374-0173</td>
+  <td colspan=59 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl31 style='height:12.75pt'>Allen Chang</td>
+  <td class=xl32>408-314-2485</td>
+  <td class=xl31 style='border-left:none'>Jina Youn</td>
+  <td class=xl32>714-356-7717</td>
+  <td colspan=59 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl31 style='height:12.75pt'>Aly Wong</td>
+  <td class=xl32>310-701-0041</td>
+  <td class=xl31 style='border-left:none'>Jonathan Amores</td>
+  <td class=xl32>650-714-5147</td>
+  <td colspan=59 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl31 style='height:12.75pt'>Andrew Chung</td>
+  <td class=xl32>323-381-8153</td>
+  <td class=xl31 style='border-left:none'>Juan De Joya</td>
+  <td class=xl32>&#12288;</td>
+  <td colspan=59 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl31 style='height:12.75pt'>Angela Ren</td>
+  <td class=xl32>925-699-1967</td>
+  <td class=xl31 style='border-left:none'>Julius Cheng</td>
+  <td class=xl32>408-209-3393</td>
+  <td colspan=59 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl31 style='height:12.75pt'>Annie Mai</td>
+  <td class=xl32>415 672 5466</td>
+  <td class=xl31 style='border-left:none'>Kenneth Ronquillo</td>
+  <td class=xl32>408-205-4197</td>
+  <td colspan=59 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl31 style='height:12.75pt'>Anthony Wee</td>
+  <td class=xl32>408-623-9639</td>
+  <td class=xl31 style='border-left:none'>Kevin Hamano</td>
+  <td class=xl32>310-750-7494</td>
+  <td colspan=59 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl31 style='height:12.75pt'>Beverly Hong</td>
+  <td class=xl32>661-916-5641</td>
+  <td class=xl31 style='border-left:none'>Leigh Loper</td>
+  <td class=xl32>408-529-7135</td>
+  <td colspan=59 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl31 style='height:12.75pt'>Brian Manaois</td>
+  <td class=xl32>510-821-9854</td>
+  <td class=xl31 style='border-left:none'>Linda Nguyen</td>
+  <td class=xl32>714-318-2118</td>
+  <td colspan=59 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl31 style='height:12.75pt'>Brian Shroer</td>
+  <td class=xl32>805-377-0347</td>
+  <td class=xl31 style='border-left:none'>Lisa Lee</td>
+  <td class=xl32>626-226-9035</td>
+  <td colspan=59 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl31 style='height:12.75pt'>Charles Lee</td>
+  <td class=xl32>626-215-9312</td>
+  <td class=xl31 style='border-left:none'>Melody Liao</td>
+  <td class=xl32>510-409-8288</td>
+  <td colspan=59 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl31 style='height:12.75pt'>Diana Chen</td>
+  <td class=xl32>909-518-1905</td>
+  <td class=xl31 style='border-left:none'>Nick Wong</td>
+  <td class=xl32>650-743-5469</td>
+  <td colspan=59 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl31 style='height:12.75pt'>Diana Halog</td>
+  <td class=xl32>619-398-7278</td>
+  <td class=xl31 style='border-left:none'>Phil Liou</td>
+  <td class=xl32>408-480-7015</td>
+  <td colspan=59 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl31 style='height:12.75pt'>Erin Pangilinan</td>
+  <td class=xl32>510-673-5448</td>
+  <td class=xl31 style='border-left:none'>Sebastian Chang</td>
+  <td class=xl32>310-467-5318</td>
+  <td colspan=59 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl31 style='height:12.75pt'>Ernesto Manacop</td>
+  <td class=xl32>562-650-8128</td>
+  <td class=xl31 style='border-left:none'>Simon Shen</td>
+  <td class=xl32>909-851-7144</td>
+  <td colspan=59 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl31 style='height:12.75pt'>Helen Tran</td>
+  <td class=xl32>626-864-8324</td>
+  <td class=xl31 style='border-left:none'>Sonny Watanasirisuk</td>
+  <td class=xl32>323-559-6679</td>
+  <td colspan=59 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl31 style='height:12.75pt'>Jade Law</td>
+  <td class=xl32>310-895-0666</td>
+  <td class=xl31 style='border-left:none'>Stephen Hu</td>
+  <td class=xl32>909-762-7902</td>
+  <td colspan=59 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl31 style='height:12.75pt'>Jaime Ng</td>
+  <td class=xl32>415-238-3281</td>
+  <td class=xl31 style='border-left:none'>Thomas Tan</td>
+  <td class=xl32>626-373-7569</td>
+  <td colspan=59 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl31 style='height:12.75pt'>Janelle Jovellanos</td>
+  <td class=xl32>916-402-8129</td>
+  <td class=xl31 style='border-left:none'>Vivian Huang</td>
+  <td class=xl32>650-796-0879</td>
+  <td colspan=59 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl31 style='height:12.75pt'>Jeena Yi</td>
+  <td class=xl32>310-941-9898</td>
+  <td class=xl31 style='border-left:none'>William Wang</td>
+  <td class=xl32>510-415-6719</td>
+  <td colspan=59 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl31 style='height:12.75pt'>Jeffrey Chou</td>
+  <td class=xl32>925-899-7520</td>
+  <td class=xl31 style='border-left:none'>Yue Tu</td>
+  <td class=xl32>408-781-6362</td>
+  <td colspan=59 style='mso-ignore:colspan'></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=178 style='width:134pt'></td>
+  <td width=131 style='width:98pt'></td>
+  <td width=153 style='width:115pt'></td>
+  <td width=124 style='width:93pt'></td>
+  <td width=127 style='width:95pt'></td>
+  <td width=129 style='width:97pt'></td>
+  <td width=92 style='width:69pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>

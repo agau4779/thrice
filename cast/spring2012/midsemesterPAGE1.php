@@ -1,0 +1,1 @@
+<div align="center"><img src="./cast/spring2012/midsemesterPAGE1.jpeg"></div>
